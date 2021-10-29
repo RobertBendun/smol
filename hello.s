@@ -40,12 +40,14 @@ program_header:
 program_header_size equ $ - program_header
 
 _start:
+	; write(stdout, "hello, world\n", 14)
 	mov rdi, 0
 	mov rsi, hello
 	mov rdx, 14
 	mov rax, 1
 	syscall
 
+	; exit(0)
 	mov rdi, 0
 	mov rax, 60
 	syscall
