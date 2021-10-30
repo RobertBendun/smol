@@ -5,4 +5,7 @@ This repository is a place of fun with self writing as little bytes as possible 
 ## Dependencies
 
 - [Netwide Assembler (NASM)](https://nasm.us)
+- [sstrip](http://www.muppetlabs.com/~breadbox/software/elfkickers.html)
+- strip
+- gcc
 - Make
